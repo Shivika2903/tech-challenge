@@ -1,0 +1,57 @@
+body{
+	font-family :Roboto;
+
+	background: #2BC0E4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+h1{
+	background: #2980b9;
+	color: white;
+	padding: 10px 20px;
+	margin : 0;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal; 
+}
+
+
+
+option{
+	background:#fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	width: 100%;
+
+}
+
+/*for every other element*/
+option:nth-of-type(2n){
+	background-color: #f7f7f7;
+
+}
+
+
+
+
+
+#container{
+	/*border : 2px solid grey;*/
+	margin : 50px auto;
+	width: 70%;
+	left:15%;
+	right:15%;
+	background :#f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,10,0.5);
+	float: center;
+}
+
+legend{
+	text-align : center;
+}
+
+

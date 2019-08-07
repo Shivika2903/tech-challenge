@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Album</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+	<script type="text/javascript" src ="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src ="main.js"></script>
+</head>
+<body onload="func_users()">
+	<div id ="container" align="left">
+		<h1>User-Album  <i class="fas fa-camera"></i></h1>
+		<form>
+            <fieldset id ="myId">
+               <p align="left">
+                  <label><i class="fas fa-user"></i>&nbsp;&nbsp;&nbsp;</label>
+                  <select id = "myUser" onchange="func_userAlbum();">
+                  </select>
+               </p>
+               
+               <p align="left" hidden="true" id="myAlbumP">
+                  <label><i class="fas fa-images"></i>&nbsp;&nbsp;</label>
+					<select id = "userAlbum" onchange="func_displayPicture();">
+                  </select>
+               </p>
+               
+            </fieldset>
+            <fieldset id="selectedAlbum" hidden="true">
+                  <div id="pictures"></div>
+            </fieldset>
+         </form>
+	</div>
+	<div id ="container" align="left"></div>
+	<br>
+</body>
+</html>
